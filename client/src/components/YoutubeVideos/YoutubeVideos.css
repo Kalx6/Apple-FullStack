@@ -1,0 +1,17 @@
+.video-section {
+  padding: 40px;
+  /* background-color: grey; */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+.videoCard {
+  margin: 10px;
+  width: 400px;
+  margin-left: auto;
+  border: none;
+}
