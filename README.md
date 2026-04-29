@@ -1,4 +1,4 @@
-# 🍎 Apple Homepage UI Clone (Full-Stack Version)
+# Apple Homepage UI Clone (Full-Stack Version)
 
 This project is a **responsive Apple homepage clone** built using **React (Vite)** and **Bootstrap** for the frontend, extended into a **full-stack application** using **Express.js** and **MySQL** for backend data management.
 
@@ -10,7 +10,7 @@ This project demonstrates modern frontend development, backend API integration, 
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 This project follows a **full-stack architecture** consisting of:
 
@@ -38,9 +38,9 @@ The frontend retrieves product data dynamically from the Express server instead 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-### 🎨 Frontend
+### Frontend
 
 - React (JavaScript)
 - Vite
@@ -51,20 +51,20 @@ The frontend retrieves product data dynamically from the Express server instead 
 - Google Fonts (Montserrat)
 - Font Awesome
 
-### ⚙️ Backend
+### Backend
 
 - Node.js
 - Express.js
 
-### 🗄️ Database
+### Database
 
 - MySQL
 
 ---
 
-## 🚀 Features
+## Features
 
-### ⚛️ Frontend Features
+### Frontend Features
 
 - Built with React (Vite) for fast development and optimized builds
 - Component-Based Architecture using reusable functional components
@@ -74,14 +74,14 @@ The frontend retrieves product data dynamically from the Express server instead 
 - Font Awesome icons for scalable UI icons
 - React Router integration for seamless multi-page navigation
 
-### ⚙️ Backend Features
+### Backend Features
 
 - Express.js server handling API routes
 - RESTful endpoints for retrieving product data
 - JSON-based API responses
 - Separation of frontend and backend logic
 
-### 🗄️ Database Features
+### Database Features
 
 - MySQL database for structured data storage
 - Relational tables for product information
@@ -89,7 +89,7 @@ The frontend retrieves product data dynamically from the Express server instead 
 
 ---
 
-## 📱 Responsiveness
+## Responsiveness
 
 The application is fully responsive across:
 
@@ -101,7 +101,7 @@ Bootstrap’s grid system and custom media queries ensure adaptive layout behavi
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 
