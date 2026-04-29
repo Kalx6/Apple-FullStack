@@ -17,6 +17,79 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin-top: 20px;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 50px;
+}
+
+.headerCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 70px; */
+}
+
+.headerCont h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.headerCont h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card {
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+}
+
+.cardBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 25vh; */
+  text-align: center;
+}
+
+.singleCardDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  text-align: center;
+}
+
+p {
+  color: rgb(102, 98, 98);
+}
+
+.btn {
+  margin-top: 30px;
+}
+.imageCon {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
 }
