@@ -40,8 +40,13 @@ function Iphone() {
               <Card className="card border-0" key={iphone.product_id}>
                 <Row className="g-0">
                   {/* Image */}
-                  <Col md={4} className={`order-md-${order1} imageCont`}>
-                    <Card.Img src={iphone.product_url} className="img-fluid" />
+                  <Col md={4} className={`order-md-${order1}`}>
+                    <div className="imageCont">
+                      <Card.Img
+                        src={iphone.product_url}
+                        className="img-fluid product-img"
+                      />
+                    </div>
                   </Col>
 
                   {/* Text */}
@@ -58,8 +63,11 @@ function Iphone() {
                       </div>
 
                       <Link to={`/iphone/${iphone.product_id}`}>
-                        <Button className="btn" variant="primary">
-                          Learn More
+                        <Button
+                          variant="link"
+                          className="text-decoration-none fs-5"
+                        >
+                          Learn More &rsaquo;
                         </Button>
                       </Link>
                     </Card.Body>

@@ -93,3 +93,18 @@ p {
   max-height: 400px;
   object-fit: contain;
 }
+
+.imageCont {
+  background-color: #f0f0f1; /* light Apple-style gray */
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.product-img {
+  max-width: 100%;
+  max-height: 300px; /* control image size */
+  object-fit: contain;
+}

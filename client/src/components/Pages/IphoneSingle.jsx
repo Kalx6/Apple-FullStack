@@ -41,11 +41,13 @@ function IphoneSingle() {
           <Card className="card border-0">
             <Row className="g-0">
               {/* Image */}
-              <Col md={4} className={`order-md-2 image`}>
-                <Card.Img
-                  src={iphone.product_url}
-                  className="img-fluid imageCon"
-                />
+              <Col md={4} className={`order-md-${order1}`}>
+                <div className="imageCont">
+                  <Card.Img
+                    src={iphone.product_url}
+                    className="img-fluid product-img"
+                  />
+                </div>
               </Col>
 
               {/* Text */}
