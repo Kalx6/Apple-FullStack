@@ -11,7 +11,7 @@ function Iphone() {
 
   useEffect(() => {
     const fetchIphones = async () => {
-      const response = await fetch("http://localhost:5000/iphones");
+      const response = await fetch("https://apple-fullstack-ipbr.onrender.com/iphones");
       const data = await response.json();
       setIphones(data.products);
     };
@@ -19,7 +19,7 @@ function Iphone() {
     fetchIphones();
   }, []);
 
-  console.log(iphones);
+  // console.log(iphones);
 
   let order1 = 1;
   let order2 = 2;
