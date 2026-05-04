@@ -11,7 +11,7 @@ function Iphone() {
 
   useEffect(() => {
     const fetchIphones = async () => {
-      const response = await fetch("https://apple-fullstack-ipbr.onrender.com/iphones");
+      const response = await fetch("http://localhost:5000/iphones");
       const data = await response.json();
       setIphones(data.products);
     };

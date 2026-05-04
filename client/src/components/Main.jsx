@@ -20,7 +20,8 @@ function Main() {
       <ThirdSection />;
       <FourthSection />;
       <FifthSection />;
-      <SixthSection />;{/* <YoutubeVideos /> */}
+      <SixthSection />;
+      <YoutubeVideos />
     </>
   );
 }

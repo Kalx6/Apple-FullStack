@@ -4,13 +4,7 @@ import db from "./config/db.js";
 
 const app = express();
 
-app.use(
-  cors(
-    (Options = {
-      origin: "apple-full-stack.vercel.app",
-    }),
-  ),
-);
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("hello world");
@@ -19,8 +13,8 @@ app.get("/", (req, res) => {
 app.get("/iphones", async (req, res) => {
   try {
     const [rows] = await db.query(
-      `SELECt * FROM Products 
-       INNER JOIN  ProductDescription ON Products.product_id = ProductDescription.product_id 
+      `SELECt * FROM Products
+       INNER JOIN  ProductDescription ON Products.product_id = ProductDescription.product_id
        INNER JOIN  ProductPrice ON ProductPrice.product_id = ProductDescription.product_id `,
     );
 
@@ -35,8 +29,8 @@ app.get("/iphones/:productId", async (req, res) => {
   const productId = req.params.productId;
   try {
     const [rows] = await db.query(
-      `SELECt * FROM Products 
-       INNER JOIN  ProductDescription ON Products.product_id = ProductDescription.product_id 
+      `SELECt * FROM Products
+       INNER JOIN  ProductDescription ON Products.product_id = ProductDescription.product_id
        INNER JOIN  ProductPrice ON ProductPrice.product_id = ProductDescription.product_id
         WHERE Products.product_id = ${productId}`,
     );
